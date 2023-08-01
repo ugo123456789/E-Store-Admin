@@ -30,8 +30,9 @@ export default async function DashboardLayout({
 
   return (
     <>
-     {/* @ts-expect-error Server Component */}
-      <Navbar />
+{
+	/* @ts-ignore */}
+        <Navbar />
       {children}
     </>
   );
